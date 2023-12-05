@@ -167,7 +167,7 @@
     border-radius:100px ;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 10px;
 }
 
@@ -187,9 +187,15 @@
 }
 .positionName{
     color: #AD974F;
-    font-size: 15px;
+    font-size: 18px;
 }
-
+.teamTemplate div{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
 /* Team left template end */
 
@@ -199,6 +205,9 @@
 }
 .right img{
     margin-right: 10px;
+}
+.right div{
+    justify-content: end;
 }
 /* Team right template end */
 
