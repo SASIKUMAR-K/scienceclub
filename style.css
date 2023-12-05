@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navItem:active{
+    background-color: white;
+    padding: 3px;
+}
+
+/*Constant button style*/
+.myBtn{
+    text-decoration: none;
+    background-color: #8E793E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #8E793E;
+    cursor: pointer;
+}
+
+.myBtn:hover{
+    background-color: #AD974F;
+    border: 2px solid #AD974F;
+}
+
+.myBtn:active{
+    background-color: #EAEAEA;
+    color: #8E793E;
+}
+
+/* btnDisbale */
+.myBtnDisable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/*End Constant button style*/
+
+
+.template{
+    background-color: #231F20;
+    color:white;
+    min-width: 270px;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.template .heading{
+    font-size: 20px;
+    text-align: center;
+}
+
+.template .description{
+    margin-top: 10px;
+}
+.template button{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+/* Change Template in mobile start*/
+/* @media screen and (max-width: 330px) {
+    .template{
+        margin: 10px 0px;
+    }
+    .template .heading{
+        font-size: 20px;
+    }
+    .template .description,.template button{
+        font-size: 15px;
+    }
+  } */
+/* Change Template in mobile end */
+
+/*Form Poster view style start*/
+.formPosterDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #231f20e0;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.poster{
+    position: absolute;
+    height: 70vh;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.formPosterDiv iframe{
+    margin: 10vh auto;
+    margin-bottom: 0px !important;
+    height: 90vh;
+}
+
+
+/* Close Button */
+.closeBtn{
+    position: absolute;
+    left: 93%;
+    top: 5%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    transform: translate(-50%,-50%);
+}
+/*Form Poster view style end*/
+
+
+
+/* Slide Window Start */
+.carousel-item img {
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+/* Slide Window End */
+
+/*Banner Heading start*/
+.bannerHeading{
+    width: 100%;
+    height:45px; 
+    margin: 20px 0px 0px 0px ;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #8E793E;
+    color: white;
+}
+
+.bannerHeadingSmall{
+    width: 100%;
+    height:40px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #AD974F;
+    color: white;
+}
+/*Banner Heading start end*/
+
+/* No event style start */
+.noEvent{
+    text-align: center;
+}
+/* No event style end */
+
+/* Team template start */
+
+/* Team Left template start */
+.teamTemplate{
+    width: 100%;
+    height: 100px;
+    background-color: #231F20;
+    border-radius:100px ;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.teamTemplate img{
+    width: 80px;
+    height: 80px;
+    border-radius : 80px;
+    margin-left: 10px;
+}
+
+.personName,.positionName{
+    color: white;
+    margin: 0px;
+}
+.personName{
+    font-size: 20px;
+}
+.positionName{
+    color: #AD974F;
+    font-size: 15px;
+}
+
+
+/* Team left template end */
+
+/* Team right template start */
+.right{
+    justify-content: end;
+}
+.right img{
+    margin-right: 10px;
+}
+/* Team right template end */
+
+/* Team template end */
+
+
+/* about me style start  */
+.aboutMeContainer {
+    text-align: center;
+    letter-spacing: 2px;
+    width: 100%;
+    background-color:#231F20;
+    color: white;
+    padding: 4px 0px;
+    font-size: 15px;
+}
+
+.aboutMeContainer p {
+    display: inline;
+}
+
+.aboutMeContainer a {
+    color:#AD974F;
+}
+/* about me style end */
+
+
